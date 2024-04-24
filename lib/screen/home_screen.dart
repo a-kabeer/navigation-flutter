@@ -13,9 +13,10 @@ class HomeScreen extends StatelessWidget {
       body: ElevatedButton(
           onPressed: () {
             Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const LoginView()),
-            );
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const LoginView(),
+                ));
           },
           child: const Text('Goto Login Screen')),
     );
